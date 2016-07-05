@@ -37,7 +37,22 @@ input:focus {
     margin: 0 auto;
     width: 80%;
 
+    .tabsContainer {
+    }
+
+    a {
+        text-decoration: none;
+        padding: 2% 4%;
+        margin: 2% 2% 0 2%;
+        color: #d8a0d9;
+        background: #222569;
+        border: 5px solid #555;
+        display: inline-block;
+        border-bottom: none;
+    }
+
     #guestList {
+        margin-top: 0;
         border: 2px solid $blue;
         min-height: 100px;
 
@@ -49,6 +64,15 @@ input:focus {
             color: white;
             margin: 2%;
             position: relative;
+
+            span.rsvp {
+                margin-left: 5%;
+                color: $blue;
+            }
+
+            select {
+                margin-left: 5%;
+            }
 
             button {
                 position: absolute;
